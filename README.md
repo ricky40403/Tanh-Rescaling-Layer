@@ -41,16 +41,5 @@ layer {
   top: "loss"
   propagate_down: true
   propagate_down: false
-  loss_param {
-    weight_by_label_freqs: true
-    class_weighting: 1.0
-    class_weighting: 1.0
-    class_weighting: 4.0
-    class_weighting: 2.0
-    class_weighting: 2.0
-    class_weighting: 1.0
-    class_weighting: 1.0
-    normalization: VALID
-  }
 }
 ```
